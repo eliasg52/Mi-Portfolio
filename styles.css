@@ -77,7 +77,7 @@ header nav a:hover {
 
 header .social-media {
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 header .social-media a i {
@@ -264,4 +264,145 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.7rem;
   color: #666;
   padding: 0.5rem 0;
+}
+
+.heading {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.heading span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.photo-and-info {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.photo-and-info .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1rem solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  flex: 1 1 25rem;
+}
+
+.about-info {
+  flex: 1 1 50rem;
+}
+
+.about-info .about-subtitle {
+  font-size: #333;
+  font-size: 3.5rem;
+}
+
+.about-info .about-text {
+  color: #666;
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 1.7rem;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.about .box-container .box {
+  flex: 1 1 20rem;
+}
+
+.about .my-skills .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.7rem;
+  gap: 1.5rem;
+}
+
+.about .my-skills .box-container .box {
+  flex: 1 1 25rem;
+  background-color: #333;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem var(--main-color);
+  padding: 3rem;
+}
+
+.about .my-skills .box-container .box p {
+  color: var(--main-color);
+  font-size: 1.7rem;
+  font-weight: bolder;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.about .my-skills .box-container .box h2 {
+  font-size: 2.5rem;
+  color: #fcf2e8;
+  padding-top: 0.8rem;
+  text-align: center;
+}
+
+.about .my-skills .box-container .box i {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.box-container .box span {
+  color: var(--main-color);
+  font-weight: bolder;
+}
+
+.javascript {
+  color: #f7df1e;
+}
+
+.html {
+  color: #ff8000;
+}
+
+.css {
+  color: #2965f1;
+}
+
+.node {
+  color: #3c873a;
+}
+
+.react {
+  color: #61dbfb;
+}
+
+.git {
+  color: #fcf2e8;
+}
+
+.linux {
+  color: #fcf2e8;
+}
+
+.english {
+  color: #fcf2e8;
+}
+
+.language {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
 }
